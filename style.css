@@ -5,6 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+/* banner style  */
 .banner {
   background-image: url("./images/banner/banner1.png");
   height: 100vh;
@@ -35,4 +36,43 @@ body {
   color: white;
   padding: 20px 25px;
   border: none;
+}
+/* failure section style  */
+.failure-section {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin: 0px 150px 100px;
+  padding-top: 0px;
+
+}
+/* .section-photo-container {
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+} */
+.section-photo {
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  background-size: contain;
+}
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+ .list p {
+    line-height: 26px;
+    margin-bottom: 8px;
 }
