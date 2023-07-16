@@ -89,7 +89,8 @@ body {
   margin-bottom: 130px;
 }
 .plan-section-last-content {
-  background-image: url("./images/watch.png"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+  background-image: url("./images/watch.png"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 230px;
@@ -114,4 +115,53 @@ body {
   border: none;
   color: red;
   font-weight: bold;
+}
+/* footer section  */
+.footer-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 100px 230px;
+  gap: 200px;
+  align-items: center;
+}
+.contact-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.contact-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.email {
+  margin-top: 24px;
+}
+.phone {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+a i {
+  padding: 5px;
+  color: white;
+}
+form input {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  color: #F3F3F3;
+  font-size: 18px;
+  font-weight: 400;
+  background:  #151414;
+}
+.title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
