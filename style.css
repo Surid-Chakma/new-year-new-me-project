@@ -44,7 +44,6 @@ body {
   gap: 90px;
   margin: 0px 150px 100px;
   padding-top: 0px;
-
 }
 /* .section-photo-container {
   width: 527.929px;
@@ -72,7 +71,47 @@ body {
   line-height: 26px;
   margin-bottom: 16px;
 }
- .list p {
-    line-height: 26px;
-    margin-bottom: 8px;
+.list p {
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+/* plan section  */
+.plan-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plan-section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan-content {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.plan-section-last-content {
+  background-image: url("./images/watch.png"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 230px;
+  margin-right: 230px;
+  height: 280px;
+  margin-bottom: 100px;
+  border-radius: 8px;
+}
+.plan-section-last-content div {
+  padding: 60px;
+  color: #0a0909;
+}
+.plan-section-last-content > h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.call-btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 25px;
+  border: none;
+  color: red;
+  font-weight: bold;
 }
